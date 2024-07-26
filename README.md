@@ -79,7 +79,9 @@ To update the exchange rates:
    - Click the “Update” button to save changes.
   
 
-Here are five future scope points for your Currency Converter project:
+
+
+#Here are five future scope points for your Currency Converter project:
 
 1. **Mobile Application Development:** We plan to develop native mobile applications for both Android and iOS platforms to make the currency converter accessible on mobile devices, providing users with real-time currency conversion on the go.
 
