@@ -77,4 +77,17 @@ To update the exchange rates:
 
    - Enter the new exchange rate.
    - Click the “Update” button to save changes.
+  
+
+Here are five future scope points for your Currency Converter project:
+
+1. **Mobile Application Development:** We plan to develop native mobile applications for both Android and iOS platforms to make the currency converter accessible on mobile devices, providing users with real-time currency conversion on the go.
+
+2. **Automated Exchange Rate Updates:** Integrate an automated system for updating exchange rates using reliable financial data APIs, ensuring that the application always provides the most current conversion rates without manual input.
+
+3. **Enhanced User Interface:** Improve the user interface to be more intuitive and visually appealing, with features such as dark mode, customizable themes, and enhanced navigation for a better user experience.
+
+4. **Multi-language Support:** Introduce multi-language support to cater to a global audience, allowing users to use the application in their preferred language.
+
+5. **Advanced Features:** Add advanced features like historical exchange rate charts, currency conversion notifications, and financial news updates to make the application more comprehensive and useful for users.
 
