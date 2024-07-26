@@ -1,4 +1,4 @@
-<img src="currency_icon.ico" alt="Currency Converter Logo" width="32" height="32">
+<img src="currency icon.ico" alt="Currency Converter Logo">
 
 
 # CURRENCY-EXCHANGER
@@ -26,7 +26,7 @@ This Currency Converter application is a simple, easy-to-use tool developed usin
 
  **Run the Application**
 
-   Locate the `CurrencyConverter.exe` file in the repository and run it.
+   Locate the `Currency.exe` file in the repository and run it.
 
 ### Adding Initial Currencies
 
@@ -34,7 +34,7 @@ When starting the application for the first time, no currency data will be prese
 
 1. **Open the Application**
 
-   Launch the application by running the `CurrencyConverter.exe` file.
+   Launch the application by running the `Currency.exe` file.
 
 2. **Add Currencies**
 
@@ -67,7 +67,7 @@ To update the exchange rates:
 
 1. **Open the Application**
 
-   Launch the `CurrencyConverter.exe` file.
+   Launch the `Currency.exe` file.
 
 2. **Select Currency**
 
