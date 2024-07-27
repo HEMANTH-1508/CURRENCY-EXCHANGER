@@ -71,7 +71,7 @@ To update the exchange rates:
 
 2. **Select Currency**
 
-   - Choose the currency to update from the dropdown list.
+   - Choose the currency to update from the from currency dropdown list.
 
 3. **Update Rate**
 
@@ -93,3 +93,7 @@ To update the exchange rates:
 
 5. **Advanced Features:** Add advanced features like historical exchange rate charts, currency conversion notifications, and financial news updates to make the application more comprehensive and useful for users.
 
+
+
+
+<img src="GUI.png" alt="Currency Converter GUI">
