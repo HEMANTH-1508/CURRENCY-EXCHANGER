@@ -1,6 +1,4 @@
 import javax.swing.*;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -175,11 +173,12 @@ public class CurrencyConverterApp {
                         if (!newRateString.isEmpty()) {
                             double newRate = Double.parseDouble(newRateString);
                             if (newRate > 0) {
-                                currencyManager.addCurrency(currency, newRate); // Update rate
+                                currencyManager.updateCurrency(currency, newRate); // Update rate
                                 updateCurrencyCombos();
                                 currencyManager.saveCurrencies(); // Save updated currencies to file
                                 newCurrencyField.setText("");
                                 exchangeRateField.setText("");
+                                resultArea.setText(String.format("Updated %s with new rate: %.2f", currency, newRate));
                             } else {
                                 JOptionPane.showMessageDialog(mainFrame, "Invalid exchange rate.", "Error", JOptionPane.ERROR_MESSAGE);
                             }
@@ -202,6 +201,10 @@ class CurrencyManager {
     private Map<String, Double> currencies = new HashMap<>();
 
     public void addCurrency(String name, double rate) {
+        currencies.put(name.toUpperCase(), rate);
+    }
+
+    public void updateCurrency(String name, double rate) {
         currencies.put(name.toUpperCase(), rate);
     }
 
